@@ -26,7 +26,7 @@ public class LocalCorePanel implements InterfaceCorePanel {
 
         if(preferences.containsKey(CarType.CARRO)) {
             int count = preferences.get(CarType.CARRO);
-            for(int innerCount = 0; innerCount < availableList.size(); count++){
+            for(int innerCount = 0; innerCount < availableList.size(); innerCount++){
                 if(vehicles.size() < count) {
                     if (availableList.get(innerCount).getCarType() == CarType.CARRO) {
                         vehicles.add(availableList.get(innerCount));
@@ -38,7 +38,7 @@ public class LocalCorePanel implements InterfaceCorePanel {
 
         if(preferences.containsKey(CarType.CAMBURAO)) {
             int count = preferences.get(CarType.CAMBURAO);
-            for(int innerCount = 0; innerCount < availableList.size(); count++){
+            for(int innerCount = 0; innerCount < availableList.size(); innerCount++){
                 if(vehicles.size() < count) {
                     if (availableList.get(innerCount).getCarType() == CarType.CAMBURAO) {
                         vehicles.add(availableList.get(innerCount));
@@ -50,7 +50,7 @@ public class LocalCorePanel implements InterfaceCorePanel {
 
         if(preferences.containsKey(CarType.MOTO)) {
             int count = preferences.get(CarType.MOTO);
-            for(int innerCount = 0; innerCount < availableList.size(); count++){
+            for(int innerCount = 0; innerCount < availableList.size(); innerCount++){
                 if(vehicles.size() < count) {
                     if (availableList.get(innerCount).getCarType() == CarType.MOTO) {
                         vehicles.add(availableList.get(innerCount));
@@ -84,6 +84,7 @@ public class LocalCorePanel implements InterfaceCorePanel {
                 case "31585350" -> result = "6";
                 case "31585360" -> result = "5";
                 case "31585370" -> result = "9";
+                case "31585375" -> result = "9";
                 case "31585380" -> result = "13";
                 case "31585390" -> result = "11";
                 default -> result = "20";
@@ -99,6 +100,7 @@ public class LocalCorePanel implements InterfaceCorePanel {
             case "31585350" -> result = "1";
             case "31585360" -> result = "5";
             case "31585370" -> result = "6";
+            case "31585375" -> result = "9";
             case "31585380" -> result = "3";
             case "31585390" -> result = "17";
             default -> result = "20";
@@ -120,6 +122,7 @@ public class LocalCorePanel implements InterfaceCorePanel {
                 case "31585350" -> result = "6Km";
                 case "31585360" -> result = "10Km";
                 case "31585370" -> result = "9Km";
+                case "31585375" -> result = "9Km";
                 case "31585380" -> result = "13Km";
                 case "31585390" -> result = "11Km";
                 default -> result = "20KM";
@@ -135,6 +138,7 @@ public class LocalCorePanel implements InterfaceCorePanel {
                 case "31585350" -> result = "7Km";
                 case "31585360" -> result = "5.5Km";
                 case "31585370" -> result = "6.1Km";
+                case "31585375" -> result = "9Km";
                 case "31585380" -> result = "3.3Km";
                 case "31585390" -> result = "17Km";
                 default -> result = "20Km";

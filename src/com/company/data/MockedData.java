@@ -63,6 +63,7 @@ public class MockedData {
         this.vehicles.add(new Vehicle("6", "31585350", CarType.MOTO, false));
         this.vehicles.add(new Vehicle("7", "31585360", CarType.CAMBURAO, false));
         this.vehicles.add(new Vehicle("8", "31585370", CarType.CAMBURAO, false));
+        this.vehicles.add(new Vehicle("11", "31585375", CarType.CAMBURAO, false));
         this.vehicles.add(new Vehicle("9", "31585380", CarType.CARRO, false));
         this.vehicles.add(new Vehicle("10", "31585390", CarType.CARRO, false));
     }

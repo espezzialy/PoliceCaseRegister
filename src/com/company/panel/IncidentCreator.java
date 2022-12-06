@@ -127,7 +127,7 @@ public class IncidentCreator extends Panel{
         switch(optionSelected) {
             case "1" -> incident.setAmbulanceNeeded(true);
             case "2" -> incident.setAmbulanceNeeded(false);
-            default -> endSession();
+            default -> startMenu();
         }
 
         line = """
@@ -142,7 +142,7 @@ public class IncidentCreator extends Panel{
         switch(optionSelected) {
             case "1" -> incident.setFirefightersNeeded(true);
             case "2" -> incident.setFirefightersNeeded(false);
-            default -> endSession();
+            default -> startMenu();
         }
         return incident;
     }
