@@ -3,7 +3,12 @@ Trabalho Prático Final da Disciplina Engenharia de Software da UFMG
 
 Implementado em Java, 
 
-
+Nomes dos integrantes:
+- 
+- Espezzialy Souza
+- Rafael Santos
+- Gabriel Teixeira
+- Marcelo Ganem
 
 Para rodar o projeto, simplesmente execute a classe principal do projeto: ControlApplication.
 A partir daí, o projeto abrirá no terminal e é só seguir as instruções com o teclado.
